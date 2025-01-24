@@ -15,9 +15,16 @@
 header {
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 30px;
+ 
 }
 header .nav {
   display: flex !important;
+ 
+}
+.header-position{
+  width: 100%;
+  position: sticky;
+  top: 0;
 }
 header li {
   margin-right: 40px;
